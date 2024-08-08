@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happ Birthday</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="present.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <canvas id="canvas"></canvas>
+      <section class="above-fold">
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+        <p class="info-text">Click to Open</p>
+      </section>
+
+      <div id="card">
+        <h4 class="title-card"></h4>
+
+        <img
+          src="./images/image1.png"
+          class="honey"
+        />
+
+        <h4 class="content-card">
+            <p>Heyyy....Chúc mừng sinh nhật Móm nhé. Chúc tuổi 18 (lần thứ 5) vui vẻ, xinh lại thêm xinh và gặp nhiều may mắn nhen !</p>
+            <p>Mong rằng cậu sẽ thành công, hạnh phúc trong cả công việc lẫn cuộc sống nhé</p>
+            <p>i wish you all the best</p>
+            <p>HAPPY BIRTHDAY TO YOU 🎂🎂🎂</p>
+        </h4>
+      </div>
+    </div>
+    <audio autoplay loop  id="playAudio">
+        <source src="./music/music.mp3" type="audio/mp3"/>
+    </audio>
+  </body>
+  <script src="canvas.js"></script>
+  <script src="present.js"></script>
+  <script>
+    
+  </script>
+</html>
